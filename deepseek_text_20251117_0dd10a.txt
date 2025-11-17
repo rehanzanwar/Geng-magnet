@@ -1,0 +1,24 @@
+gen-g-magnet-full-stack/
+├── package.json
+├── vercel.json
+├── .env.example
+├── README.md
+├── supabase-schema.sql
+├── sendgrid-template.html
+├── src/
+│   ├── components/
+│   │   └── GenGMagnet.jsx
+│   └── pages/
+│       └── Admin.jsx
+└── api/
+    ├── _supabase.js
+    ├── _sendgrid.js
+    ├── create-checkout-session.js
+    ├── razorpay-create.js
+    ├── paypal-start.js
+    ├── upi-create.js
+    ├── webhook-stripe.js
+    ├── webhook-razorpay.js
+    └── admin/
+        ├── orders.js
+        └── exchange.js
